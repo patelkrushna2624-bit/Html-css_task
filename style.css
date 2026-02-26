@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+           /*          navbar          */
+.navbar{
+    top: 0;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 30px;    
+}
+.navbar a{
+    margin: 10px;
+    text-decoration: none;
+     color: black;
+}
+.navbar :hover{
+    color: gray;
+}
+
+.img1{
+    position: relative;
+}
+
+.img1 img{
+    width: 100%;
+    height: 700px;
+    
+}
+.img1 h1{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-size: 30px;
+    color:white }
+
+          /*           main                */
+.main{
+    display: flex;
+    padding: 50px 10%;
+
+}
+
+span{
+     background-color: rgb(236, 225, 213);
+}
+.main-img img{
+    width: 80%;
+    height:auto;
+    padding-bottom: 30px;
+ 
+}
+
+.main-text h2{
+    margin: 10px;
+}
+.main-text h4{
+    margin: 20px;
+    letter-spacing: 2px;
+}
+hr{
+    width:80%;
+   margin: 0px 150px 0px 150px ;
+}
+        /*                menu               */
+.menu{
+  padding: 80px 10%;
+  display: flex;
+}
+.menu h2{
+    text-align: center;
+    }
+    .menu h4{
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+    }
+    .menu p{
+        padding-bottom: 15px;
+        color: rgb(56, 53, 53);
+    }
+
+.menu-list{
+    margin-top: 20px; 
+    flex: 50%;  
+}
+
+.menu-img img{
+  width: 100%;
+  height:600px;
+ 
+ 
+}
+   /*           bottom              */
+.bottom{
+    padding: 80px 10%;
+}
+
+.bottom h2{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.pbottom{
+    color:rgb(97, 183, 196)
+}
+
+.bottom form{
+    margin-top: 30px;
+}
+.bottom input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom : 1px solid gray;
+}
+ /*           buttom                  */
+.bottom button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(228, 219, 219);
+    color: rgb(100, 96, 96);
+}
+button:hover{
+    color: black;
+}
+footer{
+    text-align: center;
+    background-color: rgb(232, 224, 214);
+    padding: 30px;
+}
+
+@media(max-width:600px){
+    .menu,.main{
+        flex-direction: column;
+    }
+}
